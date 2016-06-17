@@ -23,7 +23,7 @@ if (isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROT
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'c9');
+define('DB_NAME', 'heroku_b4c0d7240c09bda');
 
 /** MySQL database username */
 define('DB_USER', 'b35976cc3f2a90');
@@ -32,7 +32,7 @@ define('DB_USER', 'b35976cc3f2a90');
 define('DB_PASSWORD', '938e134f');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql://b35976cc3f2a90:938e134f@us-cdbr-iron-east-04.cleardb.net/heroku_b4c0d7240c09bda?reconnect=true');
+define('DB_HOST', 'us-cdbr-iron-east-04.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
