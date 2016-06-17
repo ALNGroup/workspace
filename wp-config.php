@@ -26,10 +26,10 @@ if (isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROT
 define('DB_NAME', 'c9');
 
 /** MySQL database username */
-define('DB_USER', substr(getenv('C9_USER'), 0, 16));
+define('DB_USER', 'b35976cc3f2a90');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '938e134f');
 
 /** MySQL hostname */
 define('DB_HOST', getenv('IP'));
