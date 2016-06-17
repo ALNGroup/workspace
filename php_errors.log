@@ -1,0 +1,181 @@
+[29-Apr-2016 07:33:53 UTC] WordPress database error Unknown column 'slide_id' in 'where clause' for query UPDATE `wp_wdpsslide` SET `image_url` = 'https://alngroup-denislp1.c9users.io/wp-content/plugins/post-slider-wd/images/watermark_preview.jpg', `thumb_url` = 'https://alngroup-denislp1.c9users.io/wp-content/plugins/post-slider-wd/images/watermark_preview.jpg', `target_attr_slide` = '0' WHERE `slide_id` = '1' AND `title` = 'prototype' made by do_action('toplevel_page_sliders_wdps'), call_user_func_array, wdps_sliders, WDPSControllerSliders_wdps->execute, WDPSControllerSliders_wdps->apply, WDPSControllerSliders_wdps->save_slide_db
+[29-Apr-2016 07:35:46 UTC] WordPress database error Unknown column 'slide_id' in 'where clause' for query UPDATE `wp_wdpsslide` SET `image_url` = 'https://alngroup-denislp1.c9users.io/wp-content/plugins/post-slider-wd/images/watermark_preview.jpg', `thumb_url` = 'https://alngroup-denislp1.c9users.io/wp-content/plugins/post-slider-wd/images/watermark_preview.jpg', `target_attr_slide` = '0' WHERE `slide_id` = '1' AND `title` = 'prototype' made by do_action('toplevel_page_sliders_wdps'), call_user_func_array, wdps_sliders, WDPSControllerSliders_wdps->execute, WDPSControllerSliders_wdps->apply, WDPSControllerSliders_wdps->save_slide_db
+[29-Apr-2016 07:37:27 UTC] WordPress database error Unknown column 'slide_id' in 'where clause' for query UPDATE `wp_wdpsslide` SET `image_url` = 'https://alngroup-denislp1.c9users.io/wp-content/plugins/post-slider-wd/images/watermark_preview.jpg', `thumb_url` = 'https://alngroup-denislp1.c9users.io/wp-content/plugins/post-slider-wd/images/watermark_preview.jpg', `target_attr_slide` = '0' WHERE `slide_id` = '1' AND `title` = 'prototype' made by do_action('toplevel_page_sliders_wdps'), call_user_func_array, wdps_sliders, WDPSControllerSliders_wdps->execute, WDPSControllerSliders_wdps->apply, WDPSControllerSliders_wdps->save_slide_db
+[01-May-2016 21:41:06 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/ubuntu/workspace/wp-content/plugins/user-security-tools/user-security-tools.php on line 769 and defined in /home/ubuntu/workspace/wp-includes/wp-db.php on line 1246
+[01-May-2016 21:41:06 UTC] PHP Stack trace:
+[01-May-2016 21:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[01-May-2016 21:41:06 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[01-May-2016 21:41:06 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:585
+[01-May-2016 21:41:06 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[01-May-2016 21:41:06 UTC] PHP   5. UserSecurityTools->pluginActivation() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[01-May-2016 21:41:06 UTC] PHP   6. wpdb->prepare() /home/ubuntu/workspace/wp-content/plugins/user-security-tools/user-security-tools.php:769
+[04-May-2016 00:25:36 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:25:36 UTC] PHP Stack trace:
+[04-May-2016 00:25:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugin-install.php:0
+[04-May-2016 00:25:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/plugin-install.php:15
+[04-May-2016 00:25:36 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[04-May-2016 00:25:36 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:25:36 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:25:36 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:25:36 UTC] PHP   7. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:25:36 UTC] PHP   8. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:25:36 UTC] PHP   9. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:25:36 UTC] PHP  10. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:25:36 UTC] PHP  11. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:25:36 UTC] PHP  12. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:25:36 UTC] PHP  13. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:25:36 UTC] PHP  14. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:25:36 UTC] PHP  15. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:25:36 UTC] PHP  16. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:25:36 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:25:36 UTC] PHP  18. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:25:36 UTC] PHP  19. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:25:36 UTC] PHP  20. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:26:24 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:26:24 UTC] PHP Stack trace:
+[04-May-2016 00:26:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2016 00:26:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2016 00:26:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:26:24 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:26:24 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:26:24 UTC] PHP   6. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:26:24 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:26:24 UTC] PHP   8. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:26:24 UTC] PHP   9. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:26:24 UTC] PHP  10. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:26:24 UTC] PHP  11. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:26:24 UTC] PHP  12. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:26:24 UTC] PHP  13. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:26:24 UTC] PHP  14. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:26:24 UTC] PHP  15. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:26:24 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:26:24 UTC] PHP  17. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:26:24 UTC] PHP  18. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:26:24 UTC] PHP  19. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:28:25 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:28:25 UTC] PHP Stack trace:
+[04-May-2016 00:28:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2016 00:28:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2016 00:28:25 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:28:25 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:28:25 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:28:25 UTC] PHP   6. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:28:25 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:28:25 UTC] PHP   8. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:28:25 UTC] PHP   9. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:28:25 UTC] PHP  10. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:28:25 UTC] PHP  11. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:28:25 UTC] PHP  12. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:28:25 UTC] PHP  13. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:28:25 UTC] PHP  14. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:28:25 UTC] PHP  15. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:28:25 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:28:25 UTC] PHP  17. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:28:25 UTC] PHP  18. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:28:25 UTC] PHP  19. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:30:26 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:30:26 UTC] PHP Stack trace:
+[04-May-2016 00:30:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2016 00:30:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2016 00:30:26 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:30:26 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:30:26 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:30:26 UTC] PHP   6. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:30:26 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:30:26 UTC] PHP   8. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:30:26 UTC] PHP   9. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:30:26 UTC] PHP  10. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:30:26 UTC] PHP  11. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:30:26 UTC] PHP  12. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:30:26 UTC] PHP  13. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:30:26 UTC] PHP  14. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:30:26 UTC] PHP  15. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:30:26 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:30:26 UTC] PHP  17. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:30:26 UTC] PHP  18. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:30:26 UTC] PHP  19. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:31:26 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:31:26 UTC] PHP Stack trace:
+[04-May-2016 00:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2016 00:31:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2016 00:31:26 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:31:26 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:31:26 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:31:26 UTC] PHP   6. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:31:26 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:31:26 UTC] PHP   8. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:31:26 UTC] PHP   9. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:31:26 UTC] PHP  10. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:31:26 UTC] PHP  11. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:31:26 UTC] PHP  12. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:31:26 UTC] PHP  13. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:31:26 UTC] PHP  14. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:31:26 UTC] PHP  15. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:31:26 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:31:26 UTC] PHP  17. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:31:26 UTC] PHP  18. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:31:26 UTC] PHP  19. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:31:50 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:31:50 UTC] PHP Stack trace:
+[04-May-2016 00:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2016 00:31:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2016 00:31:50 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:31:50 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:31:50 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:31:50 UTC] PHP   6. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:31:50 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:31:50 UTC] PHP   8. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:31:50 UTC] PHP   9. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:31:50 UTC] PHP  10. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:31:50 UTC] PHP  11. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:31:50 UTC] PHP  12. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:31:50 UTC] PHP  13. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:31:50 UTC] PHP  14. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:31:50 UTC] PHP  15. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:31:50 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:31:50 UTC] PHP  17. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:31:50 UTC] PHP  18. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:31:50 UTC] PHP  19. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:32:06 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:32:06 UTC] PHP Stack trace:
+[04-May-2016 00:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[04-May-2016 00:32:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/plugins.php:10
+[04-May-2016 00:32:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[04-May-2016 00:32:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:32:06 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2016 00:32:06 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:32:06 UTC] PHP   7. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:32:06 UTC] PHP   8. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:32:06 UTC] PHP   9. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:32:06 UTC] PHP  10. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:32:06 UTC] PHP  11. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:32:06 UTC] PHP  12. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:32:06 UTC] PHP  13. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:32:06 UTC] PHP  14. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:32:06 UTC] PHP  15. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:32:06 UTC] PHP  16. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:32:06 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:32:06 UTC] PHP  18. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:32:06 UTC] PHP  19. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:32:06 UTC] PHP  20. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
+[04-May-2016 00:33:09 UTC] PHP Notice:  bp_setup_current_user foi chamada <strong>incorretamente</strong>. O usuário atual está sendo inicializado sem usar $wp>init(). Leia como <a href="https://codex.wordpress.org/pt-br:Depurando_uma_Rede_WordPress">Depurar o WordPress</a> para mais informações. (Esta mensagem foi adicionada na versão 1.7.) in /home/ubuntu/workspace/wp-includes/functions.php on line 3897
+[04-May-2016 00:33:09 UTC] PHP Stack trace:
+[04-May-2016 00:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2016 00:33:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2016 00:33:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2016 00:33:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:96
+[04-May-2016 00:33:09 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[04-May-2016 00:33:09 UTC] PHP   6. require() /home/ubuntu/workspace/wp-content/themes/TheFox/functions.php:80
+[04-May-2016 00:33:09 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/admin-init.php:20
+[04-May-2016 00:33:09 UTC] PHP   8. admin_folder_Redux_Framework_config->__construct() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:3847
+[04-May-2016 00:33:09 UTC] PHP   9. admin_folder_Redux_Framework_config->initSettings() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:25
+[04-May-2016 00:33:09 UTC] PHP  10. admin_folder_Redux_Framework_config->setSections() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:44
+[04-May-2016 00:33:09 UTC] PHP  11. current_user_can() /home/ubuntu/workspace/wp-content/themes/TheFox/admin/options-init.php:195
+[04-May-2016 00:33:09 UTC] PHP  12. wp_get_current_user() /home/ubuntu/workspace/wp-includes/capabilities.php:428
+[04-May-2016 00:33:09 UTC] PHP  13. _wp_get_current_user() /home/ubuntu/workspace/wp-includes/pluggable.php:69
+[04-May-2016 00:33:09 UTC] PHP  14. wp_set_current_user() /home/ubuntu/workspace/wp-includes/user.php:2475
+[04-May-2016 00:33:09 UTC] PHP  15. do_action() /home/ubuntu/workspace/wp-includes/pluggable.php:47
+[04-May-2016 00:33:09 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:33:09 UTC] PHP  17. bp_setup_current_user() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-May-2016 00:33:09 UTC] PHP  18. _doing_it_wrong() /home/ubuntu/workspace/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php:225
+[04-May-2016 00:33:09 UTC] PHP  19. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3897
